@@ -1,0 +1,4 @@
+<?php
+    $errorMessage="test error message";
+    echo json_encode(array("success" => true, "message" => $errorMessage));
+?>
